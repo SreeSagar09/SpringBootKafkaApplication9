@@ -1,0 +1,20 @@
+A kafka application, configure producer and consumer by using ConsumerFactory, ProducerFactory classes respectively in spring boot:
+Programs:
+* SpringBootKafkaApplication9Application.java
+* KafkaConsumerConfig.java
+* KafkaProducerConfig.java
+* OrderCotroller.java
+* Order.java
+* KafkaOrderConsumerService.java
+* KafkaOrderConsumerServiceImpl.java
+* KafkaOrderProducerService.java
+* KafkaOrderProducerServiceImpl.java
+Notes:
+
+Output:
+To place order rest end point:
+http://localhost:8080/SpringBootKafkaApplication9/order/placeOrder
+
+Order [orderId=1633195972842600, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:08:29 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=2338768068679200, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:09:15 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=2338770578719800, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:09:17 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]

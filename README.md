@@ -1,0 +1,1 @@
+A kafka application, configure producer and consumer by using ConsumerFactory, ProducerFactory classes respectively in spring boot:
