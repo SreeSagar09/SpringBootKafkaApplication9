@@ -15,6 +15,7 @@ Output:
 To place order rest end point:
 http://localhost:8080/SpringBootKafkaApplication9/order/placeOrder
 
-Order [orderId=1633195972842600, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:08:29 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]
-Order [orderId=2338768068679200, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:09:15 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]
-Order [orderId=2338770578719800, orderName=Food Order, items=[Tea, Coffee], orderDate=Mon Dec 29 22:09:17 IST 2025, deliverTo=Hi-tech city, Hyderabad, TS, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=c56a0b89-569c-44c0-b564-391a253c197a, orderName=Food Order, items=[Biryani, Fruits], orderDate=Sun Jan 04 19:36:36 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=f0639d73-90b2-4043-8bd4-89f97f8eda35, orderName=Food Order, items=[Biryani, Fruits], orderDate=Sun Jan 04 19:36:54 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=cacaf23e-afac-4bc6-9224-e8a8672662ba, orderName=Food Order, items=[Biryani, Fruits], orderDate=Sun Jan 04 19:36:57 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081, orderProcessedBy=processOrder1[group-1]]
+Order [orderId=761e442e-e13b-4933-b322-a4e60b292d10, orderName=Food Order, items=[Biryani, Fruits], orderDate=Sun Jan 04 19:36:59 IST 2026, deliverTo=Hi-tech city, Hyderabad, Telangana, 500081, orderProcessedBy=processOrder1[group-1]]
